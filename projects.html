@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Sarah Shahzad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-brand">Sarah <span>Shahzad</span></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Featured Cloud Projects</h2>
+            <div class="project-grid">
+                
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="images/project-1.jpg" alt="EC2 Hosting Infrastructure">
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">1. EC2 Web Server Hosting (Lab 04)</h3>
+                        <p class="project-desc">Configured and deployed an Apache web server on Amazon Linux 2023 EC2 instance with custom inbound security group permissions.</p>
+                        <p class="project-tech"><strong>Tech:</strong> AWS EC2, Apache HTTPD, Linux Bash</p>
+                        <a href="https://github.com/sarahshahzad/cs471-lab04" target="_blank" class="btn-link">View Project Repository &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="images/project-2.jpg" alt="S3 Static Website Hosting">
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">2. Serverless S3 Portfolio (Lab 05)</h3>
+                        <p class="project-desc">Architected and hosted a responsive multi-page web application using Amazon S3 static site hosting, bucket policies, and public access settings.</p>
+                        <p class="project-tech"><strong>Tech:</strong> AWS S3, Bucket Policy, HTML5/CSS3</p>
+                        <a href="https://github.com/sarahshahzad/cs471-lab05" target="_blank" class="btn-link">View Project Repository &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-img-container">
+                        <img src="images/project-3.jpg" alt="Cloud Cost Tracker">
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">3. Cloud Resource Cost Monitor</h3>
+                        <p class="project-desc">Developed an automated python utility to estimate regional storage costs across AWS S3 storage classes and track active resources.</p>
+                        <p class="project-tech"><strong>Tech:</strong> Python, AWS Cost Explorer API, JSON</p>
+                        <a href="https://github.com/sarahshahzad/cloud-cost-monitor" target="_blank" class="btn-link">View Project Repository &rarr;</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sarah Shahzad — CS471 Cloud Computing Lab 05</p>
+    </footer>
+</body>
+</html>
