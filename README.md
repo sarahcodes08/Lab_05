@@ -8,7 +8,7 @@
 * **Lab Number & Title:** Lab 05 — Amazon S3 (Object Storage) + Static Website
 * **Instructor Name:** Memona Ijaz
 * **Date:** 12-October-2026
-* **Live S3 Website Endpoint:** `[http://cs471-sarah-portfolio-2026.s3-website.us-east-1.amazonaws.com](http://cs471-sarah-portfolio-2026.s3-website.us-east-1.amazonaws.com)`
+* **Live S3 Website Endpoint:** http://cs471-sarah-portfolio-2026.s3-website.us-east-1.amazonaws.com
 
 ---
 
