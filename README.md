@@ -156,4 +156,4 @@ S3 static website hosting is the better choice for a simple static portfolio bec
 
 ## 7. Individual Reflection
 
-Completing Lab 05 demonstrated the practical difference between infrastructure-based web hosting on Amazon EC2 (Lab 04) and serverless static hosting on Amazon S3. Migrating my three-page portfolio to S3 showed how object storage uses a flat namespace with keys and prefixes rather than operating system directories, and how bucket policies interact with Block Public Access to serve content safely over HTTP. Diagnosing the double file extension issue (`profile.jpg.jpg`) also reinforced the importance of exact, case-sensitive object keys when linking static assets in cloud storage.
+Completing Lab 05 demonstrated the practical difference between infrastructure-based web hosting on Amazon EC2 (Lab 04) and serverless static hosting on Amazon S3. Migrating my three-page portfolio to S3 showed how object storage uses a flat namespace with keys and prefixes rather than operating system directories, and how bucket policies interact with Block Public Access to serve content safely over HTTP.
